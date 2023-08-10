@@ -8,7 +8,7 @@ This repository is for submitting the final assignment for the "Getting and Clea
 
 ## File Description
 
-- **Codebook:** This codebook contains explanations of variables and the tasks performed for data cleaning.
+- **codebook.md:** This codebook contains explanations of variables and the tasks performed for data cleaning.
 
 - **run_analysis.R:** This R code file represents the process of transforming messy data into tidy data as the following steps:
 
