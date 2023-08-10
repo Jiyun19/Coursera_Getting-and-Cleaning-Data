@@ -73,5 +73,6 @@ write.table(first_set, "1st_data.txt", row.names = FALSE)
 write.table(second_set, "2nd_data.txt", row.names = FALSE)
 
 ##summarize
+describe(first_set)
 write.table(describe(first_set)[,c("mean","min","max")], sep="\t","clipboard")
                               
