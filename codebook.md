@@ -14,11 +14,11 @@ The `run_analysis.R` script performs data cleaning as follows:
 
 2. **Changing Variable Names**
    - Change variable names to enhance their understandability after set merging
-   - Rename the 'x_test' and 'x_train' variables to 'x_label'
-   - Rename the 'y_test' and 'y_train' variables to 'activity'
-   - Rename the 'subject_test' and 'subject_train' variables to 'test' and 'train' respectively
+   - Rename the `x_test` and `x_train` variables to `x_label`
+   - Rename the `y_test` and `y_train` variables to `activity`
+   - Rename the `subject_test` and `subject_train` variables to `test` and `train` respectively
 
-3. **Changing Variable Types (Converting the 'activity' variable into a factor variable with understandable labels)**
+3. **Changing Variable Types (Converting the `activity` variable into a factor variable with understandable labels)**
    - `x_train$activity`, `y_train$activity`: Factor with 6 labels (WALKING, WALKING_UPSTAIRS, WALKING_DOWNSTAIRS, SITTING, STANDING, LAYING)
 
 4. **Extracting Specified Variables**
@@ -40,8 +40,8 @@ The `run_analysis.R` script performs data cleaning as follows:
    - Create `second_set` to summarize `first_set` using means grouped by subjects and activities
 
 8. **Saving Data**
-   - Save `first_set` as "1st_data.txt": Merging test and train data set which only contains `std()` and `mean()`
-   - Save `second_set` as "2nd_data.txt": Summarized first data set
+   - Save `first_set` as `1st_data.txt`: Merging test and train data set which only contains `std()` and `mean()`
+   - Save `second_set` as `2nd_data.txt`: Summarized first data set
 
 ## Data Summary-first_set
 
