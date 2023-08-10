@@ -37,11 +37,11 @@ The `run_analysis.R` script performs data cleaning as follows:
    - Lowercase names and insert `_` to separate words
 
 7. **Summarizing Data Using Means Grouped by Subjects and Activities**
-   - Create `second_set` to summarize `first_set` using means grouped by subjects and activities
+   - Create `second_set`: To summarize `first_set` using means grouped by subjects and activities
 
 8. **Saving Data**
-   - Save `first_set` as `1st_data.txt`: Merging test and train data set which only contains `std()` and `mean()`
-   - Save `second_set` as `2nd_data.txt`: Summarized first data set
+   - Save `first_set` as `1st_data.txt`
+   - Save `second_set` as `2nd_data.txt` 
 
 ## Data Summary-first_set
 
