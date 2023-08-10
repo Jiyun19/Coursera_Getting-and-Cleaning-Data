@@ -43,7 +43,7 @@ The `run_analysis.R` script performs data cleaning as follows:
    - Save `first_set` as "1st_data.txt": Merging test and train data set which only contains `std()` and `mean()`
    - Save `second_set` as "2nd_data.txt": Summarized first data set
 
-##Data Summary-first_set
+## Data Summary-first_set
 
 | variable                                        | mean  | min | max |
 |-------------------------------------------------|-------|-----|-----|
