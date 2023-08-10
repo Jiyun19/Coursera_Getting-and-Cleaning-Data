@@ -5,17 +5,17 @@ library("psych")
 
 ##Loading the data
 
-x_test<-read.table(file="./test/X_test.txt")
-y_test<-read.table(file="./test/y_test.txt")
+x_test<-read.table(file="./data/test/X_test.txt")
+y_test<-read.table(file="./data/test/y_test.txt")
 
-subject_test<-read.table(file="./test/subject_test.txt")
-subject_train<-read.table(file="./train/subject_train.txt")
+subject_test<-read.table(file="./data/test/subject_test.txt")
+subject_train<-read.table(file="./data/train/subject_train.txt")
 
-x_train<-read.table(file="./train/X_train.txt")
-y_train<-read.table(file="./train/y_train.txt")
+x_train<-read.table(file="./data/train/X_train.txt")
+y_train<-read.table(file="./data/train/y_train.txt")
 
-x_label<-read.table(file="./features.txt")
-activity_name<-read.table(file="./activity_labels.txt")
+x_label<-read.table(file="./data/features.txt")
+activity_name<-read.table(file="./data/activity_labels.txt")
 
 
 
