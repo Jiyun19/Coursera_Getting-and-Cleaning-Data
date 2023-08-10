@@ -42,3 +42,77 @@ The `run_analysis.R` script performs data cleaning as follows:
 8. **Saving Data**
    - Save `first_set` as "1st_data.txt": Merging test and train data set which only contains `std()` and `mean()`
    - Save `second_set` as "2nd_data.txt": Summarized first data set
+
+##Data Summary-first_set
+
+| variable                                        | mean  | min | max |
+|-------------------------------------------------|-------|-----|-----|
+| subject                                         | 16.15 | 1   | 30  |
+| set*                                            | 1.71  | 1   | 2   |
+| activity*                                       | 3.62  | 1   | 6   |
+| time_body_accelerometer_mean()_x                | 0.27  | -1  | 1   |
+| time_body_accelerometer_mean()_y                | -0.02 | -1  | 1   |
+| time_body_accelerometer_mean()_z                | -0.11 | -1  | 1   |
+| time_body_accelerometer_std()_x                 | -0.61 | -1  | 1   |
+| time_body_accelerometer_std()_y                 | -0.51 | -1  | 1   |
+| time_body_accelerometer_std()_z                 | -0.61 | -1  | 1   |
+| time_gravity_accelerometer_mean()_x             | 0.67  | -1  | 1   |
+| time_gravity_accelerometer_mean()_y             | 0.00  | -1  | 1   |
+| time_gravity_accelerometer_mean()_z             | 0.09  | -1  | 1   |
+| time_gravity_accelerometer_std()_x              | -0.97 | -1  | 1   |
+| time_gravity_accelerometer_std()_y              | -0.95 | -1  | 1   |
+| time_gravity_accelerometer_std()_z              | -0.94 | -1  | 1   |
+| time_body_accelerometer_jerk_mean()_x           | 0.08  | -1  | 1   |
+| time_body_accelerometer_jerk_mean()_y           | 0.01  | -1  | 1   |
+| time_body_accelerometer_jerk_mean()_z           | 0.00  | -1  | 1   |
+| time_body_accelerometer_jerk_std()_x            | -0.64 | -1  | 1   |
+| time_body_accelerometer_jerk_std()_y            | -0.61 | -1  | 1   |
+| time_body_accelerometer_jerk_std()_z            | -0.76 | -1  | 1   |
+| time_body_gyroscope_mean()_x                    | -0.03 | -1  | 1   |
+| time_body_gyroscope_mean()_y                    | -0.07 | -1  | 1   |
+| time_body_gyroscope_mean()_z                    | 0.09  | -1  | 1   |
+| time_body_gyroscope_std()_x                     | -0.72 | -1  | 1   |
+| time_body_gyroscope_std()_y                     | -0.68 | -1  | 1   |
+| time_body_gyroscope_std()_z                     | -0.65 | -1  | 1   |
+| time_body_gyroscope_jerk_mean()_x               | -0.10 | -1  | 1   |
+| time_body_gyroscope_jerk_mean()_y               | -0.04 | -1  | 1   |
+| time_body_gyroscope_jerk_mean()_z               | -0.05 | -1  | 1   |
+| time_body_gyroscope_jerk_std()_x                | -0.73 | -1  | 1   |
+| time_body_gyroscope_jerk_std()_y                | -0.79 | -1  | 1   |
+| time_body_gyroscope_jerk_std()_z                | -0.74 | -1  | 1   |
+| time_body_accelerometer_mag_mean()              | -0.55 | -1  | 1   |
+| time_body_accelerometer_mag_std()               | -0.59 | -1  | 1   |
+| time_gravity_accelerometer_mag_mean()           | -0.55 | -1  | 1   |
+| time_gravity_accelerometer_mag_std()            | -0.59 | -1  | 1   |
+| time_body_accelerometer_jerkmag_mean()          | -0.65 | -1  | 1   |
+| time_body_accelerometer_jerkmag_std()           | -0.63 | -1  | 1   |
+| time_body_gyroscope_mag_mean()                  | -0.61 | -1  | 1   |
+| time_body_gyroscope_mag_std()                   | -0.66 | -1  | 1   |
+| time_body_gyroscope_jerkmag_mean()              | -0.76 | -1  | 1   |
+| time_body_gyroscope_jerkmag_std()               | -0.78 | -1  | 1   |
+| frequency_body_accelerometer_mean()_x           | -0.62 | -1  | 1   |
+| frequency_body_accelerometer_mean()_y           | -0.54 | -1  | 1   |
+| frequency_body_accelerometer_mean()_z           | -0.67 | -1  | 1   |
+| frequency_body_accelerometer_std()_x            | -0.60 | -1  | 1   |
+| frequency_body_accelerometer_std()_y            | -0.53 | -1  | 1   |
+| frequency_body_accelerometer_std()_z            | -0.62 | -1  | 1   |
+| frequency_body_accelerometer_jerk_mean()_x      | -0.66 | -1  | 1   |
+| frequency_body_accelerometer_jerk_mean()_y      | -0.63 | -1  | 1   |
+| frequency_body_accelerometer_jerk_mean()_z      | -0.74 | -1  | 1   |
+| frequency_body_accelerometer_jerk_std()_x       | -0.65 | -1  | 1   |
+| frequency_body_accelerometer_jerk_std()_y       | -0.61 | -1  | 1   |
+| frequency_body_accelerometer_jerk_std()_z       | -0.78 | -1  | 1   |
+| frequency_body_gyroscope_mean()_x               | -0.67 | -1  | 1   |
+| frequency_body_gyroscope_mean()_y               | -0.71 | -1  | 1   |
+| frequency_body_gyroscope_mean()_z               | -0.64 | -1  | 1   |
+| frequency_body_gyroscope_std()_x                | -0.74 | -1  | 1   |
+| frequency_body_gyroscope_std()_y                | -0.67 | -1  | 1   |
+| frequency_body_gyroscope_std()_z                | -0.69 | -1  | 1   |
+| frequency_body_accelerometer_mag_mean()         | -0.59 | -1  | 1   |
+| frequency_body_accelerometer_mag_std()          | -0.66 | -1  | 1   |
+| frequency_bodybody_accelerometer_jerkmag_mean() | -0.62 | -1  | 1   |
+| frequency_bodybody_accelerometer_jerkmag_std()  | -0.64 | -1  | 1   |
+| frequency_bodybody_gyroscope_mag_mean()         | -0.70 | -1  | 1   |
+| frequency_bodybody_gyroscope_mag_std()          | -0.70 | -1  | 1   |
+| frequency_bodybody_gyroscope_jerkmag_mean()     | -0.78 | -1  | 1   |
+| frequency_bodybody_gyroscope_jerkmag_std()      | -0.79 | -1  | 1   |
