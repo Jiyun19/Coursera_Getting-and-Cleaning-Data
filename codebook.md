@@ -48,8 +48,8 @@ The `run_analysis.R` script performs data cleaning as follows:
 | variable                                        | mean  | min | max |
 |-------------------------------------------------|-------|-----|-----|
 | subject                                         | 16.15 | 1   | 30  |
-| set*                                            | 1.71  | 1   | 2   |
-| activity*                                       | 3.62  | 1   | 6   |
+| set                                             | 1.71  | 1   | 2   |
+| activity                                        | 3.62  | 1   | 6   |
 | time_body_accelerometer_mean()_x                | 0.27  | -1  | 1   |
 | time_body_accelerometer_mean()_y                | -0.02 | -1  | 1   |
 | time_body_accelerometer_mean()_z                | -0.11 | -1  | 1   |
