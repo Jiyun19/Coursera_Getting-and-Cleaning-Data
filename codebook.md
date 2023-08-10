@@ -2,7 +2,7 @@
 
 The `run_analysis.R` script performs data cleaning as follows:
 
-1. **Loading the data into the following variables:**
+1. **Loading the data into the following datasets:**
    - `activity_name` (6 rows, 2 columns): Description of activities and their codes
    - `x_label` (561 rows, 2 columns): Variable names for features collected from accelerometer and gyroscope
    - `subject_test` (2947 rows, 1 column): ID of test subjects
