@@ -35,7 +35,7 @@ y_test$activity<-as.factor(y_test$activity)
 levels(y_test$activity)<-activity_name[,2]
 
 ##Extracting specified variables
-extract_variables<-x_label[grep("mean\\()|std\\()",x_label[,2]),2]
+extract_variables<-x_label[grep("mean\\(\\)|std\\(\\)",x_label[,2]),2]
 extract_variables
 x_train2<-x_train[,extract_variables]
 x_test2<-x_test[,extract_variables]
